@@ -1,4 +1,4 @@
-from matrixmultiply import multiply_matrices
+from alumathpeer2 import multiply_matrices
 
 A = [[1, 2], [3, 4]]
 B = [[5, 6], [7, 8]]

@@ -8,6 +8,19 @@ def validate_matrix(matrix):
 
 
 def multiply_matrices(A, B):
+    """
+    Multiply two matrices A and B.
+    
+    Args:
+        A (list): First matrix
+        B (list): Second matrix
+        
+    Returns:
+        list: Resulting matrix
+        
+    Raises:
+        ValueError: If matrices cannot be multiplied or are invalid
+    """
     validate_matrix(A)
     validate_matrix(B)
 
@@ -24,4 +37,4 @@ def multiply_matrices(A, B):
             for k in range(cols_A):
                 result[i][j] += A[i][k] * B[k][j]
 
-    return result
+    return result 
